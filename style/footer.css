@@ -1,0 +1,43 @@
+footer {
+    background-color: #FFF8F3;
+}
+
+.final-part {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.connect {
+    width: 50%;
+    margin: 130px 0;
+}
+
+#final-title {
+    text-align: left;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+}
+
+.connect input {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+.connect textarea {
+    margin-bottom: 24px;
+    padding: 18px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
