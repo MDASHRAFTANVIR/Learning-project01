@@ -33,6 +33,16 @@ header {
     font-size: 20px;
 }
 
+.sub-btn {
+    
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    margin-left: 20px;
+}
 
 
 nav {
