@@ -23,14 +23,19 @@ header {
 .sub-btn {
     
     border: 2px solid #FD6E0A;
-    color: #FD6E0A;
-    font-weight: 600;
-    font-size: 20px;
+    
+    
     border-radius: 5px;
     padding: 18px 35px;
     margin-left: 20px;
+    
 }
-
+.sub-btn a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FD6E0A;
+}
 
 nav {
     display: flex;
@@ -57,6 +62,12 @@ nav li {
     margin-right: 80px;
 }
 
+#hire-me {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+}
 
 /* Banner Start Here  */
 

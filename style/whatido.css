@@ -13,7 +13,7 @@
 .expertise-sub {
     padding: 30px;
     background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 02px 6px 50px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
 }
 .expertise-sub img {
@@ -30,6 +30,6 @@
     font-weight: 400;
     font-size: 16px;
     color: #757575;
-    letter-spacing: .8px;
+
 }
 
