@@ -20,19 +20,6 @@ header {
     color: #FD6E0A;
 }
 
-
-/* Universal Logo ------------------------- */
-
-.primary-btn {
-    background: #FD6E0A;
-    border-radius: 5px;
-    padding: 18px 35px;
-    border: none;
-    color: whitesmoke;
-    font-weight: 600;
-    font-size: 20px;
-}
-
 .sub-btn {
     
     border: 2px solid #FD6E0A;

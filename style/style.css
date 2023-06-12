@@ -4,4 +4,44 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Primary Button  */
+/* Primary Button  */
+.primary-btn {
+    background: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* h2 or Section Title Design for all  */
+/* h2 or Section Title Design for all  */
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+
+/* p or section description for all  */
+/* p or section description for all  */
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+}
+
+
+/* Main section width  */
+/* Main section width  */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
 
