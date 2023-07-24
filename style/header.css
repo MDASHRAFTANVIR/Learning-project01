@@ -98,6 +98,13 @@ nav li {
     margin-bottom: 30px;
 }
 
+
+/* Mobile section Responsive Design  */
+/* Mobile section Responsive Design  */
+/* Mobile section Responsive Design  */
+
+
+
 @media screen and (max-width: 576px) {
     header {
         width: 100%;
@@ -150,4 +157,116 @@ nav li {
         justify-content: center;
     }
     
+}
+
+
+/* Medium Device like tab responsive  */
+/* Medium Device like tab responsive  */
+/* Medium Device like tab responsive  */
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    header {
+        width: 100%;
+    
+
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    nav li {
+        margin: 15px 0;
+    }
+    
+    .banner {
+        flex-direction: column;
+    }
+    .banner-image {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+        row-gap: 15px;
+        padding: 20px;
+        
+    }
+    .banner button {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .banner-description p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .banner-description h2 {
+        font-size: 44px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        /* width: 50%;
+        margin-left: 25%; */
+    }
+    .nav-title {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* Large Device Responsive Design  */
+/* Large Device Responsive Design  */
+/* Large Device Responsive Design  */
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    
+
+    nav {
+        
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+        justify-content: center;
+
+    }
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        margin: 0;
+    }
+    
+    .banner-description {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        row-gap: 20px;
+        
+    }
+
+    .banner-description button {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .banner-image img {
+        border-radius: 20%;
+        background-color: #ecb690;
+        
+    }
+    main {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
 }
