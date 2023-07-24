@@ -3,7 +3,10 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+body {
+    max-width: 1240px;
+    margin: 0 auto;
+}
 /* Primary Button  */
 /* Primary Button  */
 .primary-btn {
