@@ -98,3 +98,47 @@ nav li {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 576px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    nav li {
+        margin: 15px 0;
+    }
+    
+    .banner {
+        flex-direction: column;
+    }
+    .banner-image {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+        row-gap: 15px;
+    }
+    .banner-description p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .banner-description h2 {
+        font-size: 44px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        /* width: 50%;
+        margin-left: 25%; */
+    }
+    .banner .primary-btn {
+        margin-bottom: 50px;
+    }
+}
