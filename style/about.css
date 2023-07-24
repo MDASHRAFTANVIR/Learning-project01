@@ -19,3 +19,45 @@
     color: #474747;
 }
 
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .about-contact {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .about {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .about-contact {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .about-contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    
+}
