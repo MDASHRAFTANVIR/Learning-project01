@@ -45,3 +45,25 @@ body {
 /* Main section width  */
 
 
+@media screen and (max-width: 576px) {
+    main {
+        margin-left: 5%;
+    }
+   
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    main {
+        margin-left: 10%;
+    }
+    footer {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 2000px){
+    main {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
