@@ -48,3 +48,63 @@ footer {
 .social a {
     margin-right: 24px;
 }
+
+@media screen and (max-width: 576px) {
+    .final-part {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .connect {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .connect input {
+        width: 100%;
+    }
+    .connect textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .final-part {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .connect {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .connect input {
+        width: 100%;
+    }
+    .connect textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .final-part {
+        width: 80%;
+        margin-left: 10%;
+        flex-direction: column;
+        padding: 40px 0;
+        
+    }
+    .connect{
+        margin: 10px 0;
+        width: 100%;
+        
+    }
+    .connect input {
+        width: 100%;
+    }
+    .connect textarea {
+        width: 100%;
+    }
+
+}
