@@ -33,3 +33,45 @@
 
 }
 
+
+@media screen and (max-width: 576px) {
+    .expertise {
+        flex-direction: column;
+    }
+    .expertise-sub {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .what-i-do {
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .expertise {
+        flex-direction: column;
+    }
+    .expertise-sub {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .what-i-do {
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .expertise {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .what-i-do {
+        margin-bottom: 40px;
+    }
+    
+}
