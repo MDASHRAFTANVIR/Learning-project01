@@ -52,7 +52,7 @@ footer {
 @media screen and (max-width: 576px) {
     .final-part {
         width: 80%;
-        margin: 0 auto;
+        margin-left: 10%;
         flex-direction: column;
         
     }
