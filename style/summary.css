@@ -41,3 +41,33 @@
     text-align: center;
     margin: 50px 0 110px 0;
 }
+
+
+@media screen and (max-width: 576px) {
+    .resume-sub {
+        flex-direction: column;
+    }
+    .resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .resume-sub {
+        flex-direction: column;
+        
+    }
+    .resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
