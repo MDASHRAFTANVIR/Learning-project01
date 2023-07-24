@@ -57,7 +57,6 @@ footer {
         
     }
     .connect {
-        width: 80%;
         margin: 30px auto;
     }
     .connect input {
@@ -71,12 +70,11 @@ footer {
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .final-part {
         width: 80%;
-        margin: 0 auto;
+        margin-left: 10%;
         flex-direction: column;
         
     }
     .connect {
-        width: 80%;
         margin: 30px auto;
     }
     .connect input {
